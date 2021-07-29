@@ -2,7 +2,7 @@
 """
 Created on Tue Mar 16 18:56:06 2021
 
-@author: Ruth and Luciano
+@author: Ruth De Paula and Luciano Branco
 """
 
 import pandas as pd
