@@ -1,3 +1,5 @@
+# Created by Dener Bortollini and Ruth De Paula
+
 import os
 import subprocess
 
