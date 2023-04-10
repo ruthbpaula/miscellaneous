@@ -3,6 +3,19 @@
 Created on Tue Mar 16 18:56:06 2021
 
 @author: Ruth De Paula and Luciano Branco
+
+IMPORTANT!
+This script used to be called "processing_3utr_g4_intersection.py"
+
+This code transforms a file that has one coord per row (used for intersection using grep) to a file that has a start-end coord per row (used for bedtools intersect).
+
+Input example:
+chr1    123
+chr1    124
+chr1    125
+
+Output example:
+chr1    123 125
 """
 
 import pandas as pd
